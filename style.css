@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: #222;
+	color: #fff;
+	gap: 20px;
+	font-family: sans-serif;
+}
+.board{
+	width: 60vmin;
+	height: 60vmin;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	border: 1px solid #fff;
+}
+.cell{
+	border: 1px solid #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2em;
+	user-select: none;
+}
