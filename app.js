@@ -31,8 +31,8 @@ class Board{
 				cell.value = '0'
 				this.cellValue = 'x'
 			}
+			this.steps++
 		}
-		this.steps++
 		this.getValues(cell)
 	}
 	getValues(cell){
